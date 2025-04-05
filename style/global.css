@@ -1,4 +1,6 @@
-* { /* variavel global para iniciar o projeto */
+/* variavel global para iniciar o projeto */
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,4 +28,14 @@ body{
     background-color: var(--background-color);
     font-family: var(--font-family);
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+  }
 
