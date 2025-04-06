@@ -39,3 +39,14 @@ a {
     text-decoration: underline;
   }
 
+  .container{
+    padding-inline: 32px;
+    max-width: 1280px;
+    margin-inline: auto;
+  }
+
+  .bgsurface-color{
+    background-color: var(--surface-color);
+
+  }
+
